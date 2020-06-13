@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Metal Mania', cursive;
+    color: rgb(184, 28, 28);
+}
+
+h3{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: coral;
+}
+.grid{
+    border: 1px solid;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    height: 481px;
+    width: 561px;
+}
+
+.grid div{
+    height: 80px;
+    width: 80px;
+}
+
+.player-one{
+    background-color: red;
+    border-radius: 40px;
+}
+
+.player-two{
+    background-color: blue;
+    border-radius: 40px;
+}
